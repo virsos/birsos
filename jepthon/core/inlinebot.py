@@ -30,7 +30,7 @@ from .logger import logging
 LOGS = logging.getLogger(__name__)
 
 BTN_URL_REGEX = re.compile(r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)")
-ROZLOGO = "https://telegra.ph/file/e76bb41ff12a7e8b71e3c.mp4"
+ROZLOGO = "https://telegra.ph/file/ca00105c1c7ee18981679.jpg "
 tr = Config.COMMAND_HAND_LER
 
 
@@ -53,7 +53,7 @@ def ibuild_keyboard(buttons):
 
 
 def main_menu():
-    text = f"**- [سـورس الجوكر](https://t.me/JepThon)\
+    text = f"**- [سـورس فايروس](https://t.me/VV_RSI)\
         \n المسـاعد\
         \n\
         \n◽ الجوكر لـ {mention}**"
@@ -571,12 +571,12 @@ async def inline_handler(event):  # sourcery no-metrics
             url=ROZLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "**[بـوت الجوكر 🧸♥](https://t.me/Jepthon)**\
+            "**[بـوت فايروس 🧸♥](https://t.me/VV_RSI)**\
             \n\
-            \n❤ الجوكر هـو بـوت بسـيط يدخـل الـى حسـابك لجعـلك تتحـكم به معـ اوامـر معينـة.\
+            \n❤ فايروس هـو بـوت بسـيط يدخـل الـى حسـابك لجعـلك تتحـكم به معـ اوامـر معينـة.\
             \n\
             \n**اذا كـنت تـرغب بتـنصيـب السـورس عـلى حسـابك ,\
-            \n🐾 تعال الـى [كروب المسـاعدة](https://t.me/Jepthon1)!**",
+            \n🐾 تعال الـى [كروب المسـاعدة](https://t.me/VVR_ri)!**",
             "md",
         )
         result = types.InputBotInlineResult(
@@ -584,7 +584,7 @@ async def inline_handler(event):  # sourcery no-metrics
             type="photo",
             title="jepiq 🧸♥",
             description="ادخـل كـروب المسـاعدة",
-            url="https://t.me/Jepthon1",
+            url="https://t.me/VVR_ri",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
