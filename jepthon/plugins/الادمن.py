@@ -1,4 +1,4 @@
-# edit ~ @lMl10l
+# edit ~ @en_jq
 # for ~ @Jepthon
 
 from asyncio import sleep
